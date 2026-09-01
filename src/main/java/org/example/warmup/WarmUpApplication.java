@@ -8,6 +8,12 @@ public class WarmUpApplication {
 
     public static void main(String[] args)
     {
-        System.out.println("testing");
+    
+        Product product = new Product("Laptop", -1000.0, -5);
+        
+        System.out.println(product.getPrice());
+        System.out.println(product.getStock());
+        
     }
+
 }
