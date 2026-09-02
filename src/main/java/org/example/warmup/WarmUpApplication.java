@@ -2,6 +2,8 @@ package org.example.warmup;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -28,17 +30,28 @@ public class WarmUpApplication {
 
         // Exercise 2:
 
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Entre Your Name: ");
-            String name = scanner.nextLine();
-            System.out.println("Entre Your Note 1: ");
-            int note1 = scanner.nextInt();
+            // Scanner scanner = new Scanner(System.in);
+            // System.out.println("Entre Your Name: ");
+            // String name = scanner.nextLine();
+            // System.out.println("Entre Your Note 1: ");
+            // int note1 = scanner.nextInt();
 
-            System.out.println("Entre Your Note 2: ");
-            int note2 = scanner.nextInt();
+            // System.out.println("Entre Your Note 2: ");
+            // int note2 = scanner.nextInt();
 
-            Student student = new Student(name , note1,note2);
+            // Student student = new Student(name , note1,note2);
 
-            student.show();
+            // student.show();
+
+        // Exercice 4: 
+
+            int[] numbers = {1, 2, 9, 4};
+            int largest = numbers[0];
+            for ( int i = 0 ; i < numbers.length ; i++ ){
+                if(numbers[i] > largest){
+                    largest = numbers[i];
+                }
+            }
+            System.out.println(largest);
     }
 }
