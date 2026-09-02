@@ -5,11 +5,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.Files;
+import java.io.IOException;
 
 @SpringBootApplication
 public class WarmUpApplication {
 
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
         // Exercise 1:
             // int n1;
@@ -56,6 +60,12 @@ public class WarmUpApplication {
 
         // Exercise 5: 
 
-            System.out.println((int) 'A');
+            // System.out.println((int) 'A');
+
+        // Exercise 6;
+
+            Path path = Paths.get("src/main/java/org/example/warmup/Student.java");
+            long size = Files.size(path);
+            System.out.println(size);
     }
 }
