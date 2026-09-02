@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -17,6 +16,36 @@ public class WarmUpApplication {
 
     public static void main(String[] args) throws IOException
     {
+
+
+
+        Path path = Path.of("pom.xml");
+        
+        long size = Files.size(path);
+
+        System.out.println(path.getFileName() + " : " + size + " Bytes");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         //Practicing Arrays in Java
 
@@ -155,7 +184,19 @@ public class WarmUpApplication {
             // scanner.close();
 
         
+        // Exercise 8-1
 
+            Scanner scan = new Scanner(System.in);
+
+            System.out.println("Enter A Number: ");
+
+            int num = scan.nextInt();
+
+            if(num <= 0){
+                System.out.println("Invalid Number");
+            }
+
+            
 
     }
 }
