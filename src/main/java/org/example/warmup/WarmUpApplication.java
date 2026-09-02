@@ -70,27 +70,58 @@ public class WarmUpApplication {
 
         // Exercise 7;
 
-            Scanner scanner = new Scanner(System.in);
+            // Scanner scanner = new Scanner(System.in);
 
-            System.out.println("Enter X: ");
+            // System.out.println("Enter X: ");
 
-            int x = scanner.nextInt();
+            // int x = scanner.nextInt();
 
-            System.out.println("Enter Y: ");
+            // System.out.println("Enter Y: ");
 
-            int y = scanner.nextInt();
+            // int y = scanner.nextInt();
 
-            scanner.close();
+            // scanner.close();
 
-            int gcd = 1;
+            // int gcd = 1;
 
-            for (int i = 1 ; i <= x && i <= y ; i++){
-                if(x % i == 0 && y % i == 0){
-                    gcd = 1;
-                }
-            }
+            // for (int i = 1 ; i <= x && i <= y ; i++){
+            //     if(x % i == 0 && y % i == 0){
+            //         gcd = 1;
+            //     }
+            // }
 
-            System.out.println("The GCD of " + x + " and " + y + " is: " + gcd);
+            // System.out.println("The GCD of " + x + " and " + y + " is: " + gcd);
+            
+            // int[] numbers = {1, 2, 9, 4};
+        // Exercise 8:
+
+            // boolean isPrime = true;
+
+            // Scanner scanner = new Scanner(System.in);
+
+            // System.out.println("Enter Number, Check if a Prime Number: ");
+
+            // int number = scanner.nextInt();
+
+            // if(number <= 1){
+            //     isPrime = false;
+            // }else{
+            //     for (int i = 2; i < number; i++){
+            //         if(number % 1 == 0) {
+            //             isPrime = false;
+            //             break;
+            //         }
+            //     }
+            // }
+            // if(isPrime) {
+            //     System.out.println(number + " is Prime");
+            // }else {
+            //     System.out.println(number + " is Not Prime");
+            // }
+
+            // scanner.close();
+
+        //Practicing Arrays in Java
 
     }
 }
