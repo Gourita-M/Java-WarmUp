@@ -9,12 +9,45 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 @SpringBootApplication
 public class WarmUpApplication {
 
     public static void main(String[] args) throws IOException
     {
+
+        //Practicing Arrays in Java
+
+            //Creating an Empty Array
+                //int[] numbers = new int[5];
+
+            //int[] arr = {2,3,2,3,2,5,1,2,6,2,3,5,5};
+
+            // List<Integer> numbers = new ArrayList<>();
+            // numbers.add(10);
+            // numbers.add(15);
+            // numbers.add(20);
+            // //numbers.remove(1);
+
+            // System.out.println(numbers.size());
+            
+
+
+            // int i = 0;
+            // while( i < arr.length){
+            //     System.out.println(arr[i]);
+            //     i++;
+            // }
+
+            // for ( int number : arr) {
+            //     System.out.println(number);
+            // }
+
+
+
+
         // Exercise 1:
             // int n1;
             // int n2;
@@ -121,7 +154,8 @@ public class WarmUpApplication {
 
             // scanner.close();
 
-        //Practicing Arrays in Java
+        
+
 
     }
 }
