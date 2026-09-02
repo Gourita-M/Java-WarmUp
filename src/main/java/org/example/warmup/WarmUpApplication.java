@@ -43,15 +43,19 @@ public class WarmUpApplication {
 
             // student.show();
 
-        // Exercice 4: 
+        // Exercise 4: 
 
-            int[] numbers = {1, 2, 9, 4};
-            int largest = numbers[0];
-            for ( int i = 0 ; i < numbers.length ; i++ ){
-                if(numbers[i] > largest){
-                    largest = numbers[i];
-                }
-            }
-            System.out.println(largest);
+            // int[] numbers = {1, 2, 9, 4};
+            // int largest = numbers[0];
+            // for ( int i = 0 ; i < numbers.length ; i++ ){
+            //     if(numbers[i] > largest){
+            //         largest = numbers[i];
+            //     }
+            // }
+            // System.out.println(largest);
+
+        // Exercise 5: 
+
+            System.out.println((int) 'A');
     }
 }
