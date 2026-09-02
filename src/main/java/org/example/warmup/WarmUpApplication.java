@@ -64,8 +64,33 @@ public class WarmUpApplication {
 
         // Exercise 6;
 
-            Path path = Paths.get("src/main/java/org/example/warmup/Student.java");
-            long size = Files.size(path);
-            System.out.println(size);
+            // Path path = Paths.get("src/main/java/org/example/warmup/Student.java");
+            // long size = Files.size(path);
+            // System.out.println(size);
+
+        // Exercise 7;
+
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Enter X: ");
+
+            int x = scanner.nextInt();
+
+            System.out.println("Enter Y: ");
+
+            int y = scanner.nextInt();
+
+            scanner.close();
+
+            int gcd = 1;
+
+            for (int i = 1 ; i <= x && i <= y ; i++){
+                if(x % i == 0 && y % i == 0){
+                    gcd = 1;
+                }
+            }
+
+            System.out.println("The GCD of " + x + " and " + y + " is: " + gcd);
+
     }
 }
