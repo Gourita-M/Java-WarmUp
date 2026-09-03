@@ -174,7 +174,13 @@ public class WarmUpApplication {
 
         // Exercise 10
 
-            Palindrome pal = new Palindrome("toooot");
-            pal.isPalindrome();
+            // Palindrome pal = new Palindrome("toooot");
+            // pal.isPalindrome();
+
+        // Exercise 12
+
+            Reverse reverse = new Reverse("aaaao");
+
+            System.out.println(reverse.reverseString());
     }
 }
