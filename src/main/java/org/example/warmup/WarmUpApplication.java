@@ -17,36 +17,6 @@ public class WarmUpApplication {
     public static void main(String[] args) throws IOException
     {
 
-
-
-        Path path = Path.of("pom.xml");
-        
-        long size = Files.size(path);
-
-        System.out.println(path.getFileName() + " : " + size + " Bytes");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         //Practicing Arrays in Java
 
             //Creating an Empty Array
@@ -155,6 +125,7 @@ public class WarmUpApplication {
             // System.out.println("The GCD of " + x + " and " + y + " is: " + gcd);
             
             // int[] numbers = {1, 2, 9, 4};
+            
         // Exercise 8:
 
             // boolean isPrime = true;
@@ -186,17 +157,16 @@ public class WarmUpApplication {
         
         // Exercise 8-1
 
-            Scanner scan = new Scanner(System.in);
+            // Scanner scan = new Scanner(System.in);
 
-            System.out.println("Enter A Number: ");
+            // System.out.println("Enter A Number: ");
 
-            int num = scan.nextInt();
+            // int num = scan.nextInt();
 
-            if(num <= 0){
-                System.out.println("Invalid Number");
-            }
+            // if(num <= 0){
+            //     System.out.println("Invalid Number");
+            // }
 
-            
-
+        
     }
 }

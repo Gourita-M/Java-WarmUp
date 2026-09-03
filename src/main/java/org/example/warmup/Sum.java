@@ -13,4 +13,5 @@ public class Sum {
         int sum = this.n1 + this.n2;
         System.out.println(sum); 
     }
+
 }
