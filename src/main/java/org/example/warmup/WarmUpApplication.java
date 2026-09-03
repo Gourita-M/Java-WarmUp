@@ -169,9 +169,12 @@ public class WarmUpApplication {
 
         // Exercise 9
 
-            // int result = Fibonacci.fibonacci(7);
+            // int result = Fibonacci.fibonacci(3);
             // System.out.println(result);
 
         // Exercise 10
+
+            Palindrome pal = new Palindrome("toooot");
+            pal.isPalindrome();
     }
 }
