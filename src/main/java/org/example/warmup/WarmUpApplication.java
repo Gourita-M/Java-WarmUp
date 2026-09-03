@@ -125,7 +125,7 @@ public class WarmUpApplication {
             // System.out.println("The GCD of " + x + " and " + y + " is: " + gcd);
             
             // int[] numbers = {1, 2, 9, 4};
-            
+
         // Exercise 8:
 
             // boolean isPrime = true;
@@ -167,6 +167,11 @@ public class WarmUpApplication {
             //     System.out.println("Invalid Number");
             // }
 
-        
+        // Exercise 9
+
+            // int result = Fibonacci.fibonacci(7);
+            // System.out.println(result);
+
+        // Exercise 10
     }
 }
