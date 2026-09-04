@@ -9,7 +9,7 @@ import java.nio.file.Path;
 import java.nio.file.Files;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @SpringBootApplication
 public class WarmUpApplication {
@@ -179,8 +179,21 @@ public class WarmUpApplication {
 
         // Exercise 12
 
-            Reverse reverse = new Reverse("aaaao");
+            // Reverse reverse = new Reverse("aaaao");
 
-            System.out.println(reverse.reverseString());
+            // System.out.println(reverse.reverseString());
+
+        // Exercise 13
+
+            // Greatest great = new Greatest(5, 4);
+            // great.gcd();
+
+        // Exercise 13
+
+            // Ex13 ex13 = new Ex13();
+            // System.out.println(ex13.gcd(15554, 122));
+
+        
+        
     }
 }
