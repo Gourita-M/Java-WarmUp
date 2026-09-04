@@ -1,0 +1,19 @@
+package org.example.warmup;
+
+import java.util.ArrayList;
+
+public class Ex24 {
+    
+    public void arraySearch()
+    {
+        ArrayList<String> languages = new ArrayList<>();
+
+        languages.add("PHP");
+        languages.add("Java");
+        languages.add("C++");
+        languages.add("Python");
+
+        System.out.println(languages.contains("Java"));
+
+    }
+}
