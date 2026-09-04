@@ -222,8 +222,13 @@ public class WarmUpApplication {
 
         // Exercise 19
 
-            Ex19 ex19 = new Ex19();
-            ex19.insertElement();
+            // Ex19 ex19 = new Ex19();
+            // ex19.insertElement();
+
+        // Exercise 23
+
+        Ex23 ex23 = new Ex23();
+        ex23.reverseNumbers();
         
     }
 }
