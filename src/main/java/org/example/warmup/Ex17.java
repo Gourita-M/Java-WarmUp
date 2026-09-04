@@ -1,7 +1,6 @@
 package org.example.warmup;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
 public class Ex17 {
 
@@ -15,7 +14,7 @@ public class Ex17 {
     languages.add("Python");
 
     System.out.println(languages);
-    
+
     }
 
 }

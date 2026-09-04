@@ -193,32 +193,37 @@ public class WarmUpApplication {
             // Ex13 ex13 = new Ex13();
             // System.out.println(ex13.gcd(15554, 122));
 
-        ArrayList<Integer> arr = new ArrayList<>();
-        ArrayList<String> arr2 = new ArrayList<>();
+        // ArrayList<Integer> arr = new ArrayList<>();
+        // ArrayList<String> arr2 = new ArrayList<>();
         
 
-        arr2.add("Ahmaed");
-        arr2.add("Sara");
-        arr2.add("Youssef");
-        arr2.add("Omar");
-        arr2.add("Lina");
+        // arr2.add("Ahmaed");
+        // arr2.add("Sara");
+        // arr2.add("Youssef");
+        // arr2.add("Omar");
+        // arr2.add("Lina");
 
-        arr.add(10);
-        arr.add(25);
-        arr.add(30);
-        arr.add(45);
-        arr.add(50);
+        // arr.add(10);
+        // arr.add(25);
+        // arr.add(30);
+        // arr.add(45);
+        // arr.add(50);
 
-        int count = 0;
+        // int count = 0;
 
-            for(int ar : arr){
-                if(ar % 2 != 0){
-                    count ++;
-                }
-            }
+        //     for(int ar : arr){
+        //         if(ar % 2 != 0){
+        //             count ++;
+        //         }
+        //     }
 
-            System.out.println(count);
+        //     System.out.println(count);
             //System.out.println(arr2.size());
+
+        // Exercise 19
+
+            Ex19 ex19 = new Ex19();
+            ex19.insertElement();
         
     }
 }
