@@ -232,8 +232,17 @@ public class WarmUpApplication {
 
         // Exercise 24
 
-        Ex24 ex24 = new Ex24();
-        ex24.arraySearch();
-        
+        // Ex24 ex24 = new Ex24();
+        // ex24.arraySearch();
+
+        Integer a = 200;
+        Integer a2 = 200;
+
+        System.out.println(a == a2);
+
+        Integer b = 100;
+        Integer b2 = 100;
+
+        System.out.println(b == b2);
     }
 }
